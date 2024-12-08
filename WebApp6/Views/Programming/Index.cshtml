@@ -1,0 +1,11 @@
+﻿@model List<ProgrammingLanguage>
+
+<h1>Языки программирования</h1>
+<ul>
+    @foreach (var language in Model)
+    {
+        <li>
+            <a href="/Programming/Info/@language.Name">@language.Name</a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,7 @@
+﻿@model ProgrammingLanguage
+@{
+    ViewData["Title"] = $"Пример кода {Model.Name}";
+}
+
+<h1>Пример кода для @Model.Name</h1>
+<pre>@Model.CodeExample</pre>
